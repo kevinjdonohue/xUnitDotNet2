@@ -2,9 +2,19 @@
 {
     public class Calculator
     {
-        public int Add(int firstValue, int secondValue)
+        public int AddInts(int firstValue, int secondValue)
         {
             return firstValue + secondValue;
+        }
+
+        public double AddDoubles(double firstValue, double secondValue)
+        {
+            return firstValue + secondValue;
+        }
+
+        public int Divide(int firstValue, int secondValue)
+        {
+            return firstValue / secondValue;
         }
     }
 }
